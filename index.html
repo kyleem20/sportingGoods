@@ -11,27 +11,39 @@
 
   <link rel="stylesheet" href="assets/style/main.css">
   <link rel="stylesheet" href="assets/style/style.css">
-  <title>sportingGoods</title>
+  <title>Sporting Goods</title>
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-dark navbar-expand bg-dark text-light no-select">
+    <nav class="navbar navbar-dark navbar-expand bg-primary text-light no-select">
       <a class="navbar-brand ms-3" href="#">
         <img src="https://codeworks.blob.core.windows.net/public/assets/img/cw-mark.png" height="45" alt=""
           loading="lazy">
-        <span class="ms-2">sportingGoods</span>
+        <span class="ms-2">Sporting Goods</span>
       </a>
     </nav>
   </header>
   <main>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-12">
-          <div id="app"></div>
+
+        <!-- Template -->
+        <div id="products" class="row mt-5 justify-content-around"></div>
+        <div class="col-3 bg-light shadow rounded">
+          <div class="row">
+            <div class="col-12 bg-primary p-5"> Product Name </div>
+            <div class="col-12 p-4">
+              <div class="row  bg-light darken-20">
+                <div class="col-12">Quantity</div>
+                <div class="col-12">Price</div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div id="app"></div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
   </main>
   <footer class="bg-dark text-light">
     <div class="text-center no-select">

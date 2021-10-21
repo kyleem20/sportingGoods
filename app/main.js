@@ -1,7 +1,9 @@
-import { ValuesController } from "./Controllers/ValuesController.js";
+import { ProductsController } from "./Controllers/ProductsController.js"
+// import { CartsController } from "./Controllers/CartsController.js"
 
 class App {
-  valuesController = new ValuesController();
+  productsController = new ProductsController()
+  // cartsController = new CartsController()
 }
 
-window["app"] = new App();
+window["app"] = new App()
