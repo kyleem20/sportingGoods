@@ -30,16 +30,11 @@ export class ProductsController {
     productsService.createProduct(productData)
 
 
-
-
-
   }
-
-
-
-
-
-
+  showProducts() {
+    -_drawProducts()
+    document.getElementById('products').innerHTML = _drawProducts
+  }
 
 }
 
